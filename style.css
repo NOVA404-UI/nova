@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+body {
+    background-color:lightblue;
+}
+header {
+    background-color: brown;
+    color:white;
+    padding: 20px;
+    text-align: center;
+}
+header.logo {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 50px;
+    height: auto;
+}
+nav {
+    margin: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+nav a:hover {
+    color:blue;
+}
+.hero {
+    background-color:white;
+    padding: 40px 20px;
+    text-align: center;
+}
+.hero h2 {
+    color:blue;
+    margin-bottom: 20px;
+}
+.btn {
+    
+    padding: 12px 25px;
+    background :red;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: #fff;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.form-container {
+    background-color: #fff;
+    padding: 50px;
+    width: 450px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}form label {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+}
+form input,
+form select {
+    width: 50%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+button {
+    width: 50%;
+    padding: 12px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color:green;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
